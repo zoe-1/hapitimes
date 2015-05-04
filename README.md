@@ -51,15 +51,9 @@ Utilize hapijs' modular plugin design to make plugins which:
 <hr/>
 
 ### Things to Consider:
-* How should the tutorial be licensed?
-* Where should the tutorial be built?<br/>
-  Just build it on github with github .md file styles? Then, move when completed?
 * Which authentication plugin is best for the tutorial?<br/>
   [npm/newww](https://github.com/npm/newww) used [hapi-auth-cookie](https://github.com/hapijs/hapi-auth-cookie) so I chose it.
-* Who will provide code review?<br/>
-  Need technical review of each assignment.
-* Plus, need to organize beginners to walk through the tutorial 
-  and test it's usability.<br/>
 * Need to add crumb to the project?
   [hapijs / crumb](https://github.com/hapijs/crumb)<br/>
+  It seems crumb is designed for a webapi rather than website.
 
